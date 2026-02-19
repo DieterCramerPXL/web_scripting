@@ -1,6 +1,4 @@
-let minimum = function(){
-    let getal1 = Math.random();
-    let getal2 = Math.random();
+let minimum = function(getal1,getal2){
     let kleinste;
     if (getal1 < getal2) {
         kleinste = getal1;
@@ -9,4 +7,4 @@ let minimum = function(){
     }
     console.log("Het kleinste getal is " + kleinste);
 };
-minimum();
+minimum(8,9);
