@@ -1,10 +1,11 @@
-let minimum = function(getal1,getal2){
+let minimum = function(getal1,getal2) {
     let kleinste;
     if (getal1 < getal2) {
         kleinste = getal1;
     } else {
         kleinste = getal2;
     }
-    console.log("Het kleinste getal is " + kleinste);
+    return kleinste;
 };
-minimum(8,9);
+
+    console.log("Het kleinste getal is " + minimum(8,9));
